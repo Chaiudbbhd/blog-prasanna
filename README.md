@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prasanna Blog - Project Info</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-white font-sans leading-relaxed antialiased">
 
-## Project info
+  <main class="max-w-4xl mx-auto py-12 px-6">
+    <h1 class="text-4xl font-bold mb-4 text-primary">📝 Prasanna Blog</h1>
+    <p class="text-lg mb-8">Welcome to my personal tech blog powered by Vite, React, TypeScript, Tailwind CSS, and shadcn/ui.</p>
 
-**URL**: https://lovable.dev/projects/e84bbd26-7fdf-4992-ae62-71335d208818
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">🔗 Live Link</h2>
+      <a href="https://blog-prasanna.onrender.com" target="_blank" class="text-blue-500 hover:underline text-lg">
+        https://blog-prasanna.onrender.com
+      </a>
+    </section>
 
-## How can I edit this code?
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">📁 Project Info</h2>
+      <p>
+        This project was generated with 
+        <a href="https://lovable.dev" class="text-blue-400 hover:underline" target="_blank">Lovable</a>.
+        <br />
+        View it here: 
+        <a href="https://lovable.dev/projects/e84bbd26-7fdf-4992-ae62-71335d208818" target="_blank" class="text-blue-400 hover:underline">
+          Lovable Project
+        </a>
+      </p>
+    </section>
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/e84bbd26-7fdf-4992-ae62-71335d208818) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">💻 How to Edit the Code</h2>
+      <ol class="list-decimal ml-6 space-y-2">
+        <li>
+          <strong>Use Lovable:</strong> Visit the Lovable link above and start prompting. Changes auto-save.
+        </li>
+        <li>
+          <strong>Use Local IDE:</strong>
+          <pre class="bg-gray-100 text-black p-4 rounded mt-2">
+git clone &lt;YOUR_GIT_URL&gt;
+cd &lt;YOUR_PROJECT_NAME&gt;
+npm install
 npm run dev
-```
+          </pre>
+        </li>
+        <li>
+          <strong>Use GitHub:</strong> Edit files directly, click 🖉, commit changes.
+        </li>
+      </ol>
+    </section>
 
-**Edit a file directly in GitHub**
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">🚀 Technologies Used</h2>
+      <ul class="list-disc ml-6 space-y-1">
+        <li><a href="https://vitejs.dev/" class="text-blue-400 hover:underline">Vite</a></li>
+        <li><a href="https://react.dev/" class="text-blue-400 hover:underline">React</a></li>
+        <li><a href="https://www.typescriptlang.org/" class="text-blue-400 hover:underline">TypeScript</a></li>
+        <li><a href="https://tailwindcss.com/" class="text-blue-400 hover:underline">Tailwind CSS</a></li>
+        <li><a href="https://ui.shadcn.dev/" class="text-blue-400 hover:underline">shadcn/ui</a></li>
+        <li><a href="https://lucide.dev/" class="text-blue-400 hover:underline">Lucide Icons</a></li>
+      </ul>
+    </section>
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">🌍 Deployment</h2>
+      <p>
+        Deployed on Render: 
+        <a href="https://blog-prasanna.onrender.com" class="text-blue-400 hover:underline" target="_blank">
+          blog-prasanna.onrender.com
+        </a>
+      </p>
+      <p class="mt-2">If you're not using `.env`, your contact form via EmailJS might not work unless credentials are hardcoded (not recommended).</p>
+    </section>
 
-**Use GitHub Codespaces**
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-2">🧠 License</h2>
+      <p>MIT © Lakshmi Prasanna Kumar</p>
+    </section>
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e84bbd26-7fdf-4992-ae62-71335d208818) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+    <footer class="text-center text-sm text-gray-500 dark:text-gray-400 border-t pt-4">
+      Built with ❤️ using React, TypeScript, and Tailwind CSS.
+    </footer>
+  </main>
+</body>
+</html>

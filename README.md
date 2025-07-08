@@ -44,13 +44,13 @@ Tool/Framework	Documentation
 🧩 shadcn/ui	    ->    ui.shadcn.dev
 ✨ Lucide Icons	     -> lucide.dev
 
-🌍 Deployment
+# 🌍 Deployment
 
 ✅ Deployed on Render:
 
 https://blog-prasanna.onrender.com
 
-📦 To Deploy:
+# 📦 To Deploy:
 
 For Create React App (CRA):
 
@@ -58,11 +58,11 @@ npm run build
 
 Upload the build/ folder to Render Static Site.
 
-For Vite:
+# For Vite:
 
 npm run build
 
-Upload the dist/ folder to Render Static Site.
+# Upload the dist/ folder to Render Static Site.
 
 ⚙️ No .env file is needed unless you're integrating services like EmailJS or other third-party tools.
 

@@ -25,24 +25,24 @@ npm install
 
 npm run dev
 
-🔹 Edit Directly on GitHub
+# 🔹 Edit Directly on GitHub
 
-Navigate to the desired file.
+-> Navigate to the desired file.
 
-Click the 🖉 Edit button.
+-> Click the 🖉 Edit button.
 
-Make your changes and commit.
+# Make your changes and commit.
 
 🚀 Technologies Used
 
 Tool/Framework	Documentation
 
-⚡ Vite      	           vitejs.dev
-⚛️ React    	           react.dev
-🔤 TypeScript	           typescriptlang.org
-🎨 Tailwind CSS	         tailwindcss.com
-🧩 shadcn/ui	           ui.shadcn.dev
-✨ Lucide Icons	         lucide.dev
+⚡ Vite   ->	           vitejs.dev
+⚛️ React    	  ->       react.dev
+🔤 TypeScript	    ->     typescriptlang.org
+🎨 Tailwind CSS->        tailwindcss.com
+🧩 shadcn/ui	    ->    ui.shadcn.dev
+✨ Lucide Icons	     -> lucide.dev
 
 🌍 Deployment
 
